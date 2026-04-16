@@ -1,6 +1,6 @@
 # Step: The World's First AI-Driven Compiler System
 
-**Step** is a revolutionary programming language created by **Mustafa Wadhah Fadhil**. 
+**Step** is a revolutionary **Python-based** programming language created by **Mustafa Wadhah Fadhil**. 
 
 ## 🧠 Why "Step"?
 The name **Step** represents the philosophy of the project. It is designed to be a bridge that takes you **step by step** from a human idea to a running program.
@@ -14,13 +14,29 @@ The name **Step** represents the philosophy of the project. It is designed to be
 
 ---
 
-## 🐧 Linux Installation
+## 🛠️ Prerequisites
+Before installing Step, ensure you have the following:
+1. **Python 3.x**:
+   - **Windows**: Install from the [Microsoft Store](https://apps.microsoft.com/store/detail/python-312/9NCVDZ91RZNH) or [python.org](https://www.python.org/downloads/windows/).
+   - **Debian Linux**: Run `sudo apt update && sudo apt install python3`.
+2. **Ollama**: Required for compiling .st files ([ollama.com](https://ollama.com)).
+3. **AI Model**: Run `ollama pull gemma4:e4b`.
+
+---
+
+## 💻 Compatibility
+Step v1.0 is officially supported on:
+- **Windows** (10/11)
+- **Debian-based Linux** (Ubuntu, Debian, Kali, Linux Mint, etc.)
+
+---
+
+## 🐧 Linux Installation (Debian-based)
 1. Download the Linux folder.
 2. Open a terminal and run:
    ```bash
    bash install.sh
    ```
-3. **Note**: Requires Ollama (`ollama pull gemma4:e4b`).
 
 ---
 
@@ -28,10 +44,7 @@ The name **Step** represents the philosophy of the project. It is designed to be
 1. Download the Windows folder.
 2. Ensure `step.exe` and `StepSetup.exe` are in the same folder.
 3. Run **`StepSetup.exe`**.
-4. **Manual Setup Required**:
-   - Install Ollama from [ollama.com](https://ollama.com).
-   - Run: `ollama pull gemma4:e4b` in PowerShell.
-5. **Restart PowerShell** to use the `step` command.
+4. **Restart PowerShell** to use the `step` command.
 
 ---
 
